@@ -75,12 +75,6 @@
     <Compile Include="SolutionsWindow.xaml.cs">
       <DependentUpon>SolutionsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WindowFloatHorizontal.xaml.cs">
-      <DependentUpon>WindowFloatHorizontal.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WindowFloatVertical.xaml.cs">
-      <DependentUpon>WindowFloatVertical.xaml</DependentUpon>
-    </Compile>
     <Page Include="FloatWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -106,14 +100,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SolutionsWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WindowFloatHorizontal.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WindowFloatVertical.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
